@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITAN FITNESS | Premium Gym</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Transform your body at Titan Fitness. Premium luxury gym with state-of-the-art equipment, expert trainers, and personalized programs.">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">TITAN<span class="text-red">FIT</span></div>
+            <div class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#programs">Programs</a>
+                <a href="#trainers">Trainers</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#ai-tools">calculator</a>
+                <a href="#contact" class="text-red">Join Now</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container" style="width: 100%; z-index: 1;">
+            <div class="hero-content fade-up">
+                <h1 class="hero-title">TRANSFORM YOUR BODY.<br>UNLOCK YOUR <span class="text-red">POWER.</span></h1>
+                <p class="hero-subtitle">Experience the ultimate fitness transformation in our premium luxury facility. Build strength, endurance, and confidence.</p>
+                <div class="hero-btns">
+                    <a href="#pricing" class="btn btn-primary">Join Now</a>
+                    <a href="#contact" class="btn btn-outline">Free Trial</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Counter -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid" id="stats-container">
+                <div class="stat-item fade-up">
+                    <h3 class="counter" data-target="5000">0</h3>
+                    <p>Members</p>
+                </div>
+                <div class="stat-item fade-up" style="transition-delay: 0.1s;">
+                    <h3 class="counter" data-target="25">0</h3>
+                    <p>Trainers</p>
+                </div>
+                <div class="stat-item fade-up" style="transition-delay: 0.2s;">
+                    <h3 class="counter" data-target="10">0</h3>
+                    <p>Years Exp</p>
+                </div>
+                <div class="stat-item fade-up" style="transition-delay: 0.3s;">
+                    <h3 class="counter" data-target="98" data-suffix="%">0</h3>
+                    <p>Success Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Zigzag Parallax Section -->
+    <section class="zigzag-section" id="about">
+        <div class="parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop');"></div>
+        <div class="container">
+            <h2 class="section-title fade-up">The Titan <span class="text-red">Experience</span></h2>
+            <p class="section-subtitle fade-up">Discover what makes us the ultimate fitness destination.</p>
+            
+            <div class="zigzag-container">
+                <!-- Row 1 -->
+                <div class="zigzag-row">
+                    <div class="zigzag-image slide-in-left">
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1470&auto=format&fit=crop" alt="Equipment">
+                    </div>
+                    <div class="zigzag-content slide-in-right">
+                        <h3>State of the Art Equipment</h3>
+                        <p>Train with the best. Our facility is equipped with premium machines and free weights to ensure you get the maximum out of every workout session.</p>
+                        <a href="#contact" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Row 2 -->
+                <div class="zigzag-row reverse">
+                    <div class="zigzag-image slide-in-right">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1470&auto=format&fit=crop" alt="Coaching">
+                    </div>
+                    <div class="zigzag-content slide-in-left">
+                        <h3>Elite Coaching</h3>
+                        <p>Our certified personal trainers are dedicated to helping you crush your goals. Personalized plans and constant motivation.</p>
+                        <a href="#trainers" class="btn btn-outline">Meet Trainers</a>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="zigzag-row">
+                    <div class="zigzag-image slide-in-left">
+                        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1470&auto=format&fit=crop" alt="Community">
+                    </div>
+                    <div class="zigzag-content slide-in-right">
+                        <h3>Vibrant Community</h3>
+                        <p>Join a community of like-minded individuals. We push each other to be better every single day in a supportive environment.</p>
+                        <a href="#contact" class="btn btn-outline">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <h2 class="section-title fade-up">Our <span class="text-red">Programs</span></h2>
+            <p class="section-subtitle fade-up">Tailored fitness solutions to help you achieve your specific goals efficiently and effectively.</p>
+            
+            <div class="programs-grid">
+                <div class="program-card glass-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1470&auto=format&fit=crop" alt="Weight Loss" class="program-img">
+                    <div class="program-content">
+                        <h3>Weight Loss</h3>
+                        <p>High-intensity programs designed to maximize calorie burn and shred fat.</p>
+                    </div>
+                </div>
+                <div class="program-card glass-card fade-up" style="transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1470&auto=format&fit=crop" alt="Strength Training" class="program-img">
+                    <div class="program-content">
+                        <h3>Strength Training</h3>
+                        <p>Build lean muscle mass and raw power with our heavy lifting zones.</p>
+                    </div>
+                </div>
+                <div class="program-card glass-card fade-up" style="transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?q=80&w=1450&auto=format&fit=crop" alt="Fat Burn" class="program-img">
+                    <div class="program-content">
+                        <h3>Fat Burn</h3>
+                        <p>Cardio-intensive routines to improve stamina and cardiovascular health.</p>
+                    </div>
+                </div>
+                <div class="program-card glass-card fade-up" style="transition-delay: 0.3s;">
+                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1453&auto=format&fit=crop" alt="Nutrition Plan" class="program-img">
+                    <div class="program-content">
+                        <h3>Nutrition Plan</h3>
+                        <p>Personalized dietary guidance to fuel your workouts and recovery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers -->
+    <section class="trainers" id="trainers">
+        <div class="container">
+            <h2 class="section-title fade-up">Expert <span class="text-red">Trainers</span></h2>
+            <p class="section-subtitle fade-up">Train with elite professionals dedicated to pushing your limits.</p>
+
+            <div class="trainers-grid">
+                <div class="trainer-card fade-up">
+                    <img src="trainer1.jpg.png" alt="Trainer 1" class="trainer-img">
+                    <div class="trainer-info">
+                        <h3>Rahul Fitness</h3>
+                        <p>Strength & Conditioning Specialist</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card fade-up" style="transition-delay: 0.1s;">
+                    <img src="trainer2.jpg" alt="Trainer 2" class="trainer-img">
+                    <div class="trainer-info">
+                        <h3>Priya Wellness</h3>
+                        <p>HIIT & Fat Loss Expert</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card fade-up" style="transition-delay: 0.2s;">
+                    <img src="trainer3.jpg" alt="Trainer 3" class="trainer-img">
+                    <div class="trainer-info">
+                        <h3>Vikram Iron</h3>
+                        <p>Bodybuilding & Nutrition</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card fade-up" style="transition-delay: 0.3s;">
+                    <img src="trainer4.jpg" alt="Trainer 4" class="trainer-img">
+                    <div class="trainer-info">
+                        <h3>Anjali Core</h3>
+                        <p>Yoga & Flexibility Coach</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title fade-up">Membership <span class="text-red">Plans</span></h2>
+            <p class="section-subtitle fade-up">Choose the right plan to unlock your potential.</p>
+
+            <div class="pricing-grid">
+                <div class="price-card glass-card fade-up">
+                    <div class="price-header">
+                        <h3>Basic</h3>
+                        <div class="price">$<span class="counter" data-target="49">0</span><span>/mo</span></div>
+                    </div>
+                    <ul class="price-features">
+                        <li>Access to Gym Equipment</li>
+                        <li>Locker Room Access</li>
+                        <li>1 Group Class/Week</li>
+                        <li>Free Wi-Fi</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" style="width: 100%;">Select Plan</a>
+                </div>
+
+                <div class="price-card glass-card featured fade-up" style="transition-delay: 0.1s;">
+                    <div class="price-header">
+                        <h3>Premium</h3>
+                        <div class="price">$<span class="counter" data-target="89">0</span><span>/mo</span></div>
+                    </div>
+                    <ul class="price-features">
+                        <li>Unlimited Gym Access</li>
+                        <li>All Group Classes</li>
+                        <li>Personalized Diet Plan</li>
+                        <li>1 PT Session/Month</li>
+                        <li>Sauna & Spa Access</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" style="width: 100%;">Select Plan</a>
+                </div>
+
+                <div class="price-card glass-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="price-header">
+                        <h3>Elite</h3>
+                        <div class="price">$<span class="counter" data-target="149">0</span><span>/mo</span></div>
+                    </div>
+                    <ul class="price-features">
+                        <li>24/7 VIP Access</li>
+                        <li>Unlimited PT Sessions</li>
+                        <li>Advanced Nutrition Tracking</li>
+                        <li>Recovery Lounge Access</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" style="width: 100%;">Select Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="gallery-header fade-up">
+                <div class="gallery-title-wrapper">
+                    <i class="fa-solid fa-dumbbell text-red"></i>
+                    <span class="gallery-small-title text-red">OUR GALLERY</span>
+                    <i class="fa-solid fa-dumbbell text-red"></i>
+                </div>
+                <h2 class="gallery-main-title">STRONG MOMENTS</h2>
+                <p class="gallery-subtitle">Explore the energy, dedication and transformation that<br>happens every day inside our gym.</p>
+            </div>
+
+            <div class="gallery-filters fade-up">
+                <svg class="heartbeat-line" width="100" height="30" viewBox="0 0 100 30">
+                    <path d="M0 15 H30 L35 5 L45 25 L50 15 H100" stroke="var(--primary-red)" fill="none" stroke-width="2"/>
+                </svg>
+                <button class="filter-btn active">ALL</button>
+                <button class="filter-btn">WORKOUTS</button>
+                <span class="filter-sep">|</span>
+                <button class="filter-btn">TRAINING</button>
+                <span class="filter-sep">|</span>
+                <button class="filter-btn">MEMBERS</button>
+                <span class="filter-sep">|</span>
+                <button class="filter-btn">EQUIPMENTS</button>
+                <svg class="heartbeat-line" width="100" height="30" viewBox="0 0 100 30">
+                    <path d="M0 15 H50 L55 5 L65 25 L70 15 H100" stroke="var(--primary-red)" fill="none" stroke-width="2"/>
+                </svg>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item fade-up">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop" alt="Gym 1">
+                </div>
+                <div class="gallery-item fade-up" style="transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1470&auto=format&fit=crop" alt="Gym 2">
+                </div>
+                <div class="gallery-item fade-up" style="transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1470&auto=format&fit=crop" alt="Gym 3">
+                </div>
+                <div class="gallery-item fade-up" style="transition-delay: 0.3s;">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1470&auto=format&fit=crop" alt="Gym 4">
+                </div>
+                <div class="gallery-item fade-up" style="transition-delay: 0.4s;">
+                    <img src="https://images.unsplash.com/photo-1596357395217-80de13130e92?q=80&w=1471&auto=format&fit=crop" alt="Gym 5">
+                </div>
+                <div class="gallery-item fade-up" style="transition-delay: 0.5s;">
+                    <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=1469&auto=format&fit=crop" alt="Gym 6">
+                </div>
+                <div class="gallery-item fade-up" style="transition-delay: 0.6s;">
+                    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop" alt="Gym 7">
+                </div>
+                <div class="gallery-item fade-up" style="transition-delay: 0.7s;">
+                    <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1470&auto=format&fit=crop" alt="Gym 8">
+                </div>
+            </div>
+
+            <div class="gallery-footer fade-up" style="text-align: center; margin-top: 3rem;">
+                <a href="#contact" class="btn-join-family">JOIN OUR FITNESS FAMILY <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div class="lightbox" id="lightbox">
+            <span class="lightbox-close" id="lightbox-close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="instagram" id="instagram">
+        <div class="container">
+            <div class="insta-header-centered fade-up" style="text-align: center; margin-bottom: 4rem;">
+                <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 1rem;">
+                    <i class="fa-brands fa-instagram text-red" style="font-size: 1.5rem;"></i>
+                    <span style="font-family: var(--font-heading); font-weight: 800; letter-spacing: 3px; font-size: 1.1rem; color: var(--primary-red);">SOCIAL FEED</span>
+                    <i class="fa-brands fa-instagram text-red" style="font-size: 1.5rem;"></i>
+                </div>
+                <h2 class="section-title" style="font-size: 4rem; margin-bottom: 0.5rem;">Follow <span class="text-red">Us</span></h2>
+                <p class="section-subtitle" style="margin-bottom: 2rem;">@TitanFitOfficial - Join our community of 50k+ fitness enthusiasts.</p>
+                <a href="#" class="btn btn-primary" style="display: inline-flex; gap: 8px; padding: 1rem 3rem;"><i class="fa-brands fa-instagram"></i> Follow on Instagram</a>
+            </div>
+        </div>
+        
+        <div class="insta-marquee">
+            <div class="insta-marquee-track">
+                <!-- Card 1 -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=500&auto=format&fit=crop" alt="Insta 1">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=500&auto=format&fit=crop" alt="Insta 2">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=500&auto=format&fit=crop" alt="Insta 3">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=500&auto=format&fit=crop" alt="Insta 4">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=500&auto=format&fit=crop" alt="Insta 5">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <!-- Duplicate for infinite scroll -->
+                
+                <!-- Card 1 Duplicate -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=500&auto=format&fit=crop" alt="Insta 1">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <!-- Card 2 Duplicate -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=500&auto=format&fit=crop" alt="Insta 2">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <!-- Card 3 Duplicate -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=500&auto=format&fit=crop" alt="Insta 3">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <!-- Card 4 Duplicate -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=500&auto=format&fit=crop" alt="Insta 4">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <!-- Card 5 Duplicate -->
+                <div class="insta-post-card">
+                    <div class="insta-post-header">
+                        <div class="insta-post-header-left">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=100&auto=format&fit=crop" class="insta-avatar" alt="avatar">
+                            <span class="insta-username">titanfitofficial</span>
+                        </div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="insta-post-img-container">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=500&auto=format&fit=crop" alt="Insta 5">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="insta-post-footer">
+                        <div class="insta-actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- AI Tools -->
+    <section class="ai-tools" id="ai-tools">
+        <div class="container">
+            <h2 class="section-title fade-up">calculator <span class="text-red">Tools</span></h2>
+            <p class="section-subtitle fade-up">Calculate your metrics using our smart integrated tools.</p>
+
+            <div class="ai-grid">
+                <div class="glass-card fade-up calc-card">
+                    <div class="calc-header">
+                        <div>
+                            <h3>BMI Calculator</h3>
+                            <p class="calc-desc">Check your Body Mass Index quickly.</p>
+                        </div>
+                        <button class="calc-refresh-btn" id="bmi-refresh" title="Reset Calculator">
+                            <i class="fa-solid fa-rotate-right"></i>
+                            <span class="refresh-ripple"></span>
+                        </button>
+                    </div>
+                    <form class="calculator-form" id="bmi-form">
+                
+                        <div class="form-group">
+                            <label>Weight (kg)</label>
+                            <input type="number" id="bmi-weight" required placeholder="e.g. 75">
+                        </div>
+                        <div class="form-group">
+                            <label>Height (cm)</label>
+                            <input type="number" id="bmi-height" required placeholder="e.g. 180">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Calculate BMI</button>
+                    </form>
+                    <div class="calc-result" id="bmi-result">
+                        <h4>23.1</h4>
+                        <p>Normal Weight</p>
+                    </div>
+                </div>
+
+                <div class="glass-card fade-up calc-card" style="transition-delay: 0.1s;">
+                    <div class="calc-header">
+                        <div>
+                            <h3>Calorie Calculator</h3>
+                            <p class="calc-desc">Estimate daily calories for maintenance.</p>
+                        </div>
+                        <button class="calc-refresh-btn" id="cal-refresh" title="Reset Calculator">
+                            <i class="fa-solid fa-rotate-right"></i>
+                            <span class="refresh-ripple"></span>
+                        </button>
+                    </div>
+                    <form class="calculator-form" id="cal-form">
+                        <div class="form-group">
+                            <label>Age</label>
+                            <input type="number" id="cal-age" required placeholder="e.g. 25">
+                        </div>
+                        <div class="form-group">
+                            <label>Gender</label>
+                            <div class="gender-toggle" id="gender-toggle">
+                                <button type="button" class="gender-btn active" data-gender="M">
+                                    <i class="fa-solid fa-mars"></i> Male
+                                </button>
+                                <button type="button" class="gender-btn" data-gender="F">
+                                    <i class="fa-solid fa-venus"></i> Female
+                                </button>
+                                <div class="gender-slider"></div>
+                            </div>
+                            <input type="hidden" id="cal-gender" value="M">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Calculate Calories</button>
+                    </form>
+                    <div class="calc-result" id="cal-result">
+                        <h4>2500 kcal</h4>
+                        <p>Daily Maintenance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-up">Get In <span class="text-red">Touch</span></h2>
+            <p class="section-subtitle fade-up">Ready to transform your life? Send us a message and our team will get back to you within 24 hours.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info glass-card fade-up">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Fitness Street, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@titanfitness.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon-Sun: 5:00 AM - 11:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container glass-card fade-up" style="transition-delay: 0.1s;">
+                    <form class="contact-form">
+                        <div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="margin-bottom: 1rem;">TITAN<span class="text-red">FIT</span></div>
+                    <p style="color: var(--text-gray);">Building better bodies, stronger minds, and unbreakable spirits since 2016.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>123 Fitness Street, NY 10001</li>
+                        <li>+1 (555) 123-4567</li>
+                        <li>info@titanfitness.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Titan Fitness. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
